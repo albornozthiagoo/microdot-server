@@ -3,4 +3,5 @@ document.addEventListener('DOMContentLoaded', () => {
     const fechaActual = new Date(document.lastModified);
     const opcionesFecha = { year: 'numeric', month: 'long', day: 'numeric' };
     fechaElemento.textContent = fechaActual.toLocaleDateString('es-ES', opcionesFecha);
+    document.getElementById('fecha').textContent = new Date().toLocaleDateString('es-AR');
 });
