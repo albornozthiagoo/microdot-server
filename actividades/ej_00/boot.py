@@ -34,4 +34,3 @@ def connect_to(ssid : str, passwd : str) -> None:
 oled.text("IP Cooperadora:",0,0)
 oled.text(connect_to("Cooperadora Alumnos", ""), 0, 10)
 oled.show()
-
