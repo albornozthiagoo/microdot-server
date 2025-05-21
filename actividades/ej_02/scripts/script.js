@@ -11,7 +11,7 @@ document.addEventListener('DOMContentLoaded', function () {
         });
     });
 
-    // Actualiza solo el preview cuando se mueve el slider
+    // Actualizamos solo el preview cuando se mueve el slider
     document.getElementById('redRange').addEventListener('input', updateRGBPreview);
     document.getElementById('greenRange').addEventListener('input', updateRGBPreview);
     document.getElementById('blueRange').addEventListener('input', updateRGBPreview);
