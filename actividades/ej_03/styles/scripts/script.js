@@ -34,7 +34,7 @@ document.addEventListener('DOMContentLoaded', function () {
             fetch(`/setpoint/${setpointRange.value}`, { method: 'POST' });
         });
     }
-
+    
     // Actualiza Temperatura y el Buzzer.
     function refreshTempAndBuzzer() {
         fetch('/sensor/temperature')
