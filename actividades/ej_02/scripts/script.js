@@ -2,7 +2,7 @@ function led_toggle(led){
     fetch(`/led/toggle/${led}`);
 }
 
-// Agregamos listeners a los botones de LED individuales
+// Agrego listeners a los botones de LED individuales
 document.addEventListener('DOMContentLoaded', function () {
     // Botones de LED individuales (asumiendo tienen clase "led-button")
     document.querySelectorAll(".led-button").forEach(button => {
