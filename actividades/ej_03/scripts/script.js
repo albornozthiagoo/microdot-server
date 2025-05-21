@@ -22,7 +22,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
     updateRGBPreview();
 
-    // SETPOINT
+    // Setpoint
     const setpointRange = document.getElementById('setpointRange');
     const setpointValue = document.getElementById('setpointValue');
     if(setpointRange && setpointValue) {
