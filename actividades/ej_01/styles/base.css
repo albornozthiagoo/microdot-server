@@ -64,7 +64,7 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 40px 20px 100px; /* espacio para footer fijo */
+    padding: 40px 20px 100px; /* espacio para footer */
 }
 
 .info-section {
